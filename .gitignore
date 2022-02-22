@@ -1,0 +1,6 @@
+.next
+dist
+.vercel
+.env
+index info.txt
+node_modules
