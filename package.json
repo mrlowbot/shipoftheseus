@@ -2,16 +2,18 @@
   "name": "shipoftheseus",
   "version": "1.0.0",
   "description": "A frontend website that shows and explains the philosophical idea of the ship of Theseus.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrlowbot/shipoftheseus.git"
   },
   "keywords": [],
-  "author": "Karwan Maryame Azar",
+  "author": "Karwan Maryame Azar <karwanazar@icloud.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrlowbot/shipoftheseus/issues"
