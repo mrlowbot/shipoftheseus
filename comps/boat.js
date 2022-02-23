@@ -3,6 +3,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
 import { DogSpinner, DogContainer } from './boat-loader'
+import src from '../public/Wood_baseColor.png'
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
@@ -53,7 +54,7 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.001 + 0.1
+      const scale = scH * 0.01 + 0.1
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -74,7 +75,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/boat.gltf', {
+      loadGLTFModel(scene, '/scene.gltf', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {

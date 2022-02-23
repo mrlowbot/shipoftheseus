@@ -55,7 +55,7 @@ const Home = () => (
         (Parmenides 139), but there is no remaining evidence that they knew
         this paradox. The paradox was later discussed by Plutarch, and more
         recently by Thomas Hobbes and John Locke. Several variants are known,
-        including the grandfather's axe and Trigger&apos;s broom, which have
+        including the grandfather&apos;s axe and Trigger&apos;s broom, which have
         each had both head and handle replaced. The particular "Ship of Theseus"
         version of the thought puzzle was first introduced in Greek legend as
         reported by the historian, biographer, and essayist Plutarch: The ship
