@@ -3,11 +3,11 @@ import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import VoxelDogLoader from '../boat-loader'
+import BoatLoader from '../boat-loader'
 
-const LazyVoxelDog = dynamic(() => import('../voxel-dog'), {
+const LazyVoxelDog = dynamic(() => import('../boat'), {
   ssr: false,
-  loading: () => <VoxelDogLoader />
+  loading: () => <BoatLoader />
 })
 
 const Main = ({ children, router }) => {
@@ -15,19 +15,14 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Karwans's homepage" />
-        <meta name="author" content="Karwan" />
-        <meta name="author" content="Pearium" />
+        <meta name="description" content="SOT" />
+        <meta name="author" content="Karwan M.A." />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@PeariumLucifer" />
-        <meta name="twitter:creator" content="@PeariumLucifer" />
-        <meta name="twitter:image" content="/card.png" />
-        <meta property="og:site_name" content="Karwan Maryame Azar's Homepage" />
+        <meta property="og:site_name" content="Ship of Theseus" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
-        <title>Karwan M.A - Homepage</title>
+        <title>Ship of Theseus</title>
       </Head>
 
       <NavBar path={router.asPath} />

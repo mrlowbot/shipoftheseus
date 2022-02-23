@@ -4,3 +4,4 @@ dist
 .env
 index info.txt
 node_modules
+boat.gltf

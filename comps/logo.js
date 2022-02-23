@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Karwan M.A.
+            Ship of Theseus
           </Text>
         </LogoBox>
       </a>
