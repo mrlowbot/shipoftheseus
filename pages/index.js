@@ -56,7 +56,7 @@ const Home = () => (
         this paradox. The paradox was later discussed by Plutarch, and more
         recently by Thomas Hobbes and John Locke. Several variants are known,
         including the grandfather&apos;s axe and Trigger&apos;s broom, which have
-        each had both head and handle replaced. The particular "Ship of Theseus"
+        each had both head and handle replaced. The particular &quot;Ship of Theseus&quot;
         version of the thought puzzle was first introduced in Greek legend as
         reported by the historian, biographer, and essayist Plutarch: The ship
         wherein Theseus and the youth of Athens returned from Crete had thirty
@@ -91,10 +91,10 @@ const Home = () => (
         in a harbor as a museum piece, and as the years went by, some of the
         wooden parts began to rot and were replaced by new ones; then, after a
         century or so, every part had been replaced. The question then is
-        whether the "restored" ship is still the same object as the original. If
+        whether the &quot;restored&quot; ship is still the same object as the original. If
         it is, then suppose the removed pieces were stored in a warehouse, and
         after the century, technology was developed that cured their rot and
-        enabled them to be reassembled into a ship. Is this "reconstructed" ship
+        enabled them to be reassembled into a ship. Is this &quot;reconstructed&quot; ship
         the original ship? If it is, then what about the restored ship in the
         harbor still being the original ship as well?
       </Paragraph>
