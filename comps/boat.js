@@ -30,7 +30,7 @@ const VoxelDog = () => {
     if (container && renderer) {
       const scW = container.clientWidth
       const scH = container.clientHeight
-
+      renderer.texture(material)
       renderer.setSize(scW, scH)
     }
   }, [renderer])
@@ -77,7 +77,7 @@ const VoxelDog = () => {
 
       loadGLTFModel(scene, '/scene.gltf', {
         receiveShadow: false,
-        castShadow: false
+        castShadow: false,
       }).then(() => {
         animate()
         setLoading(false)
