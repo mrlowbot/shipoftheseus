@@ -3,8 +3,6 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
 import { DogSpinner, DogContainer } from './boat-loader'
-import src from '../public/Wood_baseColor.png'
-import { Th } from '@chakra-ui/react'
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
@@ -31,7 +29,6 @@ const VoxelDog = () => {
     if (container && renderer) {
       const scW = container.clientWidth
       const scH = container.clientHeight
-      renderer.texture(material)
       renderer.setSize(scW, scH)
     }
   }, [renderer])
