@@ -1,14 +1,19 @@
 # Ship of Theseus
 A frontend website that shows and explains the philosophical idea of the ship of Theseus.
 
-Using Next Js, Chakra UI, Framer Motion and Three.js. 
 
-The website is a derivative from my main portfolio website that was originally built by 
-https://github.com/craftzdog. 
+	Using Next Js, Chakra UI, Framer Motion and Three.js. 
 
-However this was mainly built by me as most of it is changed compared to the original.
+	The website is a derivative from my main portfolio website that was originally built by 
+	https://github.com/craftzdog. 
+	
+	
+	
+My model was bought on https://sketchfab.com/.
 
-Its okay to use the code as you wish but the model of the boat is my own and was bought. 
-If you wish to buy it as well then check out https://sketchfab.com/.
+I keep the website running using Vercel, since this is mainly frontend. 
+It's an interesting idea to me and that’s mainly why I thought that this would be a cool thing to 
+do whilst I learned more about using Next Js with Three Js. Specifically, because I wanted to create a
+website with models running in the background. 
 
 
