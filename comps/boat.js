@@ -33,7 +33,6 @@ const VoxelDog = () => {
     }
   }, [renderer])
 
-  /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
     const { current: container } = refContainer
     if (container && !renderer) {
@@ -50,8 +49,6 @@ const VoxelDog = () => {
       container.appendChild(renderer.domElement)
       setRenderer(renderer)
 
-      // 640 -> 240
-      // 8   -> 6
       const scale = scH * 0.01 + 0.1
       const camera = new THREE.OrthographicCamera(
         -scale,
@@ -90,7 +87,7 @@ const VoxelDog = () => {
 
         if (frame <= 100) {
           const p = initialCameraPosition
-          const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
+          const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 2
 
           camera.position.y = 10
           camera.position.x =
