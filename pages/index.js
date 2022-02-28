@@ -115,32 +115,35 @@ const Home = () => (
         No identity over time This solution was first introduced by the Greek
         philosopher Heraclitus who attempted to solve the thought puzzle by
         introducing the idea of a river where water replenishes itself as it
-        flows past. Arius Didymus quoted him as saying &quot;upon those who step into
-        the same rivers, different and again different waters flow&quot;. Plutarch
-        disputed Heraclitus&apos; claim about stepping twice into the same river,
-        citing that it cannot be done because &quot;it scatters and again comes
-        together, and approaches and recedes&quot;.
+        flows past. Arius Didymus quoted him as saying &quot;upon those who step
+        into the same rivers, different and again different waters flow&quot;.
+        Plutarch disputed Heraclitus&apos; claim about stepping twice into the
+        same river, citing that it cannot be done because &quot;it scatters and
+        again comes together, and approaches and recedes&quot;.
+        <br></br>
         <br></br>
         Four-dimensionalism Main article: Perdurantism Ted Sider and others have
         proposed that considering objects to extend across time as
-        four-dimensional causal series of three-dimensional &quot;time-slices&quot; could
-        solve the Ship of Theseus problem because, in taking such an approach,
-        all four-dimensional objects remain numerically identical to themselves
-        while allowing individual time-slices to differ from each other. The
-        aforementioned river, therefore, comprises different three-dimensional
-        time-slices of itself while remaining numerically identical to itself
-        across time; one can never step into the same river-time-slice twice,
-        but one can step into the same (four-dimensional) river twice.
+        four-dimensional causal series of three-dimensional
+        &quot;time-slices&quot; could solve the Ship of Theseus problem because,
+        in taking such an approach, all four-dimensional objects remain
+        numerically identical to themselves while allowing individual
+        time-slices to differ from each other. The aforementioned river,
+        therefore, comprises different three-dimensional time-slices of itself
+        while remaining numerically identical to itself across time; one can
+        never step into the same river-time-slice twice, but one can step into
+        the same (four-dimensional) river twice.
+        <br></br>
         <br></br>
         Cognitive science According to Noam Chomsky, as described in Of Minds
         and Language (2009), the thought puzzle arises because of extreme
         externalism: the assumption that what is true in our minds is true in
         the world. Chomsky says that this is not an unassailable assumption,
         from the perspective of the natural sciences, because human intuition is
-        often mistaken. Cognitive science would treat this thought puzzle as
-        the subject of an investigation of the human mind. Studying this human
-        confusion can reveal much about the brain&apos;s operation, but little about
-        the nature of the human-independent external world. Following on
+        often mistaken. Cognitive science would treat this thought puzzle as the
+        subject of an investigation of the human mind. Studying this human
+        confusion can reveal much about the brain&apos;s operation, but little
+        about the nature of the human-independent external world. Following on
         from this observation, a significant strand in cognitive science would
         consider The Ship not as a thing, nor even a collection of objectively
         existing thing-parts, but rather as an organisational structure that has
@@ -150,13 +153,13 @@ const Home = () => (
         continuity between this set of relationships, it is The Ship of Theseus.
         An organisational structure of course has to have components, but these
         also are defined in the same way. Such a recursive structure must
-        &quot;bottom out&quot; somewhere and the enactivists[13] see this grounding to be
-        based in our embodied relationship with our environment. In Cohen&apos;s (see
-        below) example where a scavenger follows Theseus, collecting the
-        discarded parts of the original Ship of Theseus, and then reassembles
-        them, the reassembled ship is not The Ship of Theseus because,
-        presumably a court of law would say, Theseus does not have the &quot;owns&quot;
-        relationship with the reconstructed ship.
+        &quot;bottom out&quot; somewhere and the enactivists[13] see this
+        grounding to be based in our embodied relationship with our environment.
+        In Cohen&apos;s (see below) example where a scavenger follows Theseus,
+        collecting the discarded parts of the original Ship of Theseus, and then
+        reassembles them, the reassembled ship is not The Ship of Theseus
+        because, presumably a court of law would say, Theseus does not have the
+        &quot;owns&quot; relationship with the reconstructed ship.
       </Paragraph>
     </Section>
 
