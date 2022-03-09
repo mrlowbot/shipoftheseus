@@ -7,6 +7,8 @@ A frontend website that shows and explains the philosophical idea of the ship of
 	The website is a derivative from my main portfolio website that was originally built by 
 	https://github.com/craftzdog. 
 	
+	To run do: npm run dev
+	
 	
 	
 My model was bought on https://sketchfab.com/.
@@ -16,4 +18,8 @@ It's an interesting idea to me and that’s mainly why I thought that this would
 do whilst I learned more about using Next Js with Three Js. Specifically, because I wanted to create a
 website with models running in the background. 
 
+	I was angry with my friend; 
+	I told my wrath, my wrath did end.
+	I was angry with my foe: 
+	I told it not, my wrath did grow. 
 
