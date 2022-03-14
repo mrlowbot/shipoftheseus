@@ -17,11 +17,10 @@ import {
   IoPawOutline,
   IoHappyOutline
 } from 'react-icons/io5'
-import countapi from 'countapi-js'
+import countapi from 'countapi-js';
 
-let L = [];
 countapi.visits().then((result) => {
-  L.push(result.value);
+  console.log(result.value);
 });
 
 const Home = () => (
@@ -250,7 +249,7 @@ const Home = () => (
               colorScheme="teal"
               leftIcon={<Icon as={IoHappyOutline} />}
             >
-              Visits: {L}
+              
             </Button>
           </Link>
         </ListItem>
