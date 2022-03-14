@@ -17,7 +17,7 @@ _If we replace all the parts of the ship, is it still the same ~~ship~~?_
       > comps:    Components such as loading the boat model, fonts, chakra, navbar etc.
       > lib:      Specific detailes for the theme and model.
       > pages:    _app.js and index.js.
-      > public:   boat model and photos for logo and svg. 
+      > public:   Boat model and photos for logo and svg. 
  
  
    ###### To run:
