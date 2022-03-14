@@ -7,7 +7,7 @@ _If we replace all the parts of the ship, is it still the same ~~[ship](https://
 ###### The main point of this website is to simply explain the idea of the ship of Theseus and to allow for an interesting conclusion.
 
   #### By using
-  * ##### [Next Js](https://nextjs.org/) (deployed in [Vercel](vercel.com))
+  * ##### [Next Js](https://nextjs.org/) (deployed in [Vercel](https://vercel.com/))
   * ##### [Framer motion](https://www.framer.com/motion/)
   * ##### [Three Js](https://threejs.org/)
   * ##### [Chakra UI](https://chakra-ui.com/)
