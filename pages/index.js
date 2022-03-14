@@ -14,8 +14,15 @@ import {
   IoLogoTwitter,
   IoLogoGithub,
   IoBrushOutline,
-  IoPawOutline
+  IoPawOutline,
+  IoHappyOutline
 } from 'react-icons/io5'
+import countapi from 'countapi-js'
+
+let L = [];
+countapi.visits().then((result) => {
+  L.push(result.value);
+});
 
 const Home = () => (
   <Container maxW="container.xl">
@@ -226,13 +233,24 @@ const Home = () => (
           </Link>
         </ListItem>
         <ListItem>
-        <Link href="https://www.craftz.dog/" target="_blank">
+          <Link href="https://www.craftz.dog/" target="_blank">
             <Button
               variant="ghost"
               colorScheme="teal"
               leftIcon={<Icon as={IoPawOutline} />}
             >
               Website inspiration!
+            </Button>
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link>
+            <Button
+              variant="ghost"
+              colorScheme="teal"
+              leftIcon={<Icon as={IoHappyOutline} />}
+            >
+              Visits: {L}
             </Button>
           </Link>
         </ListItem>
