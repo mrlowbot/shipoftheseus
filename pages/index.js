@@ -59,24 +59,29 @@ const Home = () => (
         ancient philosophers such as Heraclitus (Cratylus 401d) and Plato
         (Parmenides 139), but there is no remaining evidence that they knew this
         paradox. The paradox was later discussed by Plutarch, and more recently
-        by Thomas Hobbes and John Locke. Several variants are known, including
-        the grandfather&apos;s axe and Trigger&apos;s broom, which have each had
-        both head and handle replaced. The particular &quot;Ship of
-        Theseus&quot; version of the thought puzzle was first introduced in
-        Greek legend as reported by the historian, biographer, and essayist
-        Plutarch: The ship wherein Theseus and the youth of Athens returned from
-        Crete had thirty oars, and was preserved by the Athenians down even to
-        the time of Demetrius Phalereus, for they took away the old planks as
-        they decayed, putting in new and stronger timber in their places,
-        insomuch that this ship became a standing example among the
-        philosophers, for the logical question of things that grow; one side
-        holding that the ship remained the same, and the other contending that
-        it was not the same. --Plutarch, Theseus Plutarch thus questions whether
-        the ship would remain the same if it were entirely replaced, piece by
-        piece. Centuries later, the philosopher Thomas Hobbes introduced a
-        further puzzle, wondering what would happen if the original planks were
-        gathered up after they were replaced, and then used to build a second
-        ship. Hobbes asked which ship, if either, would be the original ship of
+        by Thomas Hobbes and John Locke.
+        <br></br>
+        <br></br>
+        Several variants are known, including the grandfather&apos;s axe and
+        Trigger&apos;s broom, which have each had both head and handle replaced.
+        The particular &quot;Ship of Theseus&quot; version of the thought puzzle
+        was first introduced in Greek legend as reported by the historian,
+        biographer, and essayist Plutarch: The ship wherein Theseus and the
+        youth of Athens returned from Crete had thirty oars, and was preserved
+        by the Athenians down even to the time of Demetrius Phalereus, for they
+        took away the old planks as they decayed, putting in new and stronger
+        timber in their places, insomuch that this ship became a standing
+        example among the philosophers, for the logical question of things that
+        grow; one side holding that the ship remained the same, and the other
+        contending that it was not the same. --Plutarch, Theseus Plutarch thus
+        questions whether the ship would remain the same if it were entirely
+        replaced, piece by piece. Centuries later, the philosopher Thomas Hobbes
+        introduced a further puzzle, wondering what would happen if the original
+        planks were gathered up after they were replaced, and then used to build
+        a second ship.
+        <br></br>
+        <br></br>
+        Hobbes asked which ship, if either, would be the original ship of
         Theseus. An ancient Buddhist text titled in Sanskrit
         Mahāprajñāpāramitopadeśa, which was later translated into Classical
         Chinese (Da zhidu lun 大智度論), contains a similar philosophical
@@ -98,9 +103,12 @@ const Home = () => (
         wooden parts began to rot and were replaced by new ones; then, after a
         century or so, every part had been replaced. The question then is
         whether the &quot;restored&quot; ship is still the same object as the
-        original. If it is, then suppose the removed pieces were stored in a
-        warehouse, and after the century, technology was developed that cured
-        their rot and enabled them to be reassembled into a ship. Is this
+        original.
+        <br></br>
+        <br></br>
+        If it is, then suppose the removed pieces were stored in a warehouse,
+        and after the century, technology was developed that cured their rot and
+        enabled them to be reassembled into a ship. Is this
         &quot;reconstructed&quot; ship the original ship? If it is, then what
         about the restored ship in the harbor still being the original ship as
         well?
@@ -147,19 +155,22 @@ const Home = () => (
         from this observation, a significant strand in cognitive science would
         consider The Ship not as a thing, nor even a collection of objectively
         existing thing-parts, but rather as an organisational structure that has
-        perceptual continuity. When Theseus thinks of his ship, he has
-        expectations about what parts can be found where, how they interact, and
-        how they interact with the wider world. As long as there is a time/space
-        continuity between this set of relationships, it is The Ship of Theseus.
-        An organisational structure of course has to have components, but these
-        also are defined in the same way. Such a recursive structure must
-        &quot;bottom out&quot; somewhere and the enactivists see this grounding
-        to be based in our embodied relationship with our environment. In
-        Cohen&apos;s (see below) example where a scavenger follows Theseus,
-        collecting the discarded parts of the original Ship of Theseus, and then
-        reassembles them, the reassembled ship is not The Ship of Theseus
-        because, presumably a court of law would say, Theseus does not have the
-        &quot;owns&quot; relationship with the reconstructed ship.
+        perceptual continuity.
+        <br></br>
+        <br></br>
+        When Theseus thinks of his ship, he has expectations about what parts
+        can be found where, how they interact, and how they interact with the
+        wider world. As long as there is a time/space continuity between this
+        set of relationships, it is The Ship of Theseus. An organisational
+        structure of course has to have components, but these also are defined
+        in the same way. Such a recursive structure must &quot;bottom out&quot;
+        somewhere and the enactivists see this grounding to be based in our
+        embodied relationship with our environment. In Cohen&apos;s (see below)
+        example where a scavenger follows Theseus, collecting the discarded
+        parts of the original Ship of Theseus, and then reassembles them, the
+        reassembled ship is not The Ship of Theseus because, presumably a court
+        of law would say, Theseus does not have the &quot;owns&quot;
+        relationship with the reconstructed ship.
       </Paragraph>
     </Section>
 
