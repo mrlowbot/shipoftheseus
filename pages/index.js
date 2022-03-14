@@ -13,7 +13,8 @@ import Section from '../comps/section'
 import {
   IoLogoTwitter,
   IoLogoGithub,
-  IoLogoApple
+  IoLogoApple,
+  IoBrushOutline
 } from 'react-icons/io5'
 
 const Home = () => (
@@ -152,9 +153,9 @@ const Home = () => (
         continuity between this set of relationships, it is The Ship of Theseus.
         An organisational structure of course has to have components, but these
         also are defined in the same way. Such a recursive structure must
-        &quot;bottom out&quot; somewhere and the enactivists[13] see this
-        grounding to be based in our embodied relationship with our environment.
-        In Cohen&apos;s (see below) example where a scavenger follows Theseus,
+        &quot;bottom out&quot; somewhere and the enactivists see this grounding
+        to be based in our embodied relationship with our environment. In
+        Cohen&apos;s (see below) example where a scavenger follows Theseus,
         collecting the discarded parts of the original Ship of Theseus, and then
         reassembles them, the reassembled ship is not The Ship of Theseus
         because, presumably a court of law would say, Theseus does not have the
@@ -162,11 +163,35 @@ const Home = () => (
       </Paragraph>
     </Section>
 
+    <Section delay={0.1}>
+      <Heading as="h3" size="xl">
+        Conclusion of idea
+      </Heading>
+      If anything, this idea can be boiled down to one thing. The ship of
+      Theseus will technically still be the same ship even if every part of the
+      ship has been replaced but only if Theseus himself touches it again.
+      <br></br>
+      <br></br>
+      Hopefully you have found this idea and this website interesting.
+      <Paragraph></Paragraph>
+    </Section>
+
     <Section delay={0.3}>
       <Heading as="h3" variant="section-title">
         On the web
       </Heading>
       <List>
+        <ListItem>
+          <Link href="https://society6.com/mrlowbot" target="_blank">
+            <Button
+              variant="ghost"
+              colorScheme="teal"
+              leftIcon={<Icon as={IoBrushOutline} />}
+            >
+              Art works!
+            </Button>
+          </Link>
+        </ListItem>
         <ListItem>
           <Link href="https://github.com/mrlowbot" target="_blank">
             <Button
