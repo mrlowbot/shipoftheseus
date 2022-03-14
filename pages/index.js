@@ -13,7 +13,6 @@ import Section from '../comps/section'
 import {
   IoLogoTwitter,
   IoLogoGithub,
-  IoLogoApple,
   IoBrushOutline,
   IoPawOutline
 } from 'react-icons/io5'
@@ -223,17 +222,6 @@ const Home = () => (
               leftIcon={<Icon as={IoLogoTwitter} />}
             >
               @MrLowBot_git
-            </Button>
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link target="_blank">
-            <Button
-              variant="ghost"
-              colorScheme="teal"
-              leftIcon={<Icon as={IoLogoApple} />}
-            >
-              KarwanAzar@icloud.com
             </Button>
           </Link>
         </ListItem>
