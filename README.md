@@ -1,25 +1,29 @@
-# Ship of Theseus
-A frontend website that shows and explains the philosophical idea of the ship of Theseus.
+# The ship of Theseus
+  #### This is a hobby project about a philosophical idea showcased using different front end tools.
+  
+_If we replace all the parts of the ship, is it still the same ~~[ship](https://www.the-ship-of-theseus.com/)~~?_
 
 
-	Using Next Js, Chakra UI, Framer Motion and Three.js. 
+###### The main point of this website is to simply explain the idea of the ship of Theseus and to allow for an interesting conclusion.
 
-	The website is a derivative from my main portfolio website that was originally built by 
-	https://github.com/craftzdog. 
-	
-	To run do: npm run dev
-	
-	
-	
-My model was bought on https://sketchfab.com/.
+  #### By using
+  * ##### [Next Js](https://nextjs.org/) (deployed in [Vercel](vercel.com))
+  * ##### [Framer motion](https://www.framer.com/motion/)
+  * ##### [Three Js](https://threejs.org/)
+  * ##### [Chakra UI](https://chakra-ui.com/)
 
-I keep the website running using Vercel, since this is mainly frontend. 
-It's an interesting idea to me and that’s mainly why I thought that this would be a cool thing to 
-do whilst I learned more about using Next Js with Three Js. Specifically, because I wanted to create a
-website with models running in the background. 
+  ##### We can create a website that showcases a model in a nice way. 
 
-	I was angry with my friend; 
-	I told my wrath, my wrath did end.
-	I was angry with my foe: 
-	I told it not, my wrath did grow. 
+      > comps:    Components such as loading the boat model, fonts, chakra, navbar etc.
+      > lib:      Specific detailes for the theme and model.
+      > pages:    _app.js and index.js.
+      > public:   Boat model and photos for logo and svg. 
+ 
+ 
+   ###### To run:
+       > npm run dev
 
+  ###### I bought my model from [sketchfab](https://sketchfab.com/feed). This whole project was inspired by [Craftzdog's](https://github.com/craftzdog/craftzdog-homepage) main website. 
+
+
+  ##### *Hopefully you guys like it*. :) 
