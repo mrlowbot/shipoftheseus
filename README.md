@@ -1,7 +1,7 @@
 # The ship of Theseus
   #### This is a hobby project about a philosophical idea showcased using different front end tools.
   
-_If we replace all the parts of the ship, is it still the same ~~ship~~?_
+_If we replace all the parts of the ship, is it still the same ~~[ship](https://www.the-ship-of-theseus.com/)~~?_
 
 
 ###### The main point of this website is to simply explain the idea of the ship of Theseus and to allow for an interesting conclusion.
