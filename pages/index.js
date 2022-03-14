@@ -14,7 +14,8 @@ import {
   IoLogoTwitter,
   IoLogoGithub,
   IoLogoApple,
-  IoBrushOutline
+  IoBrushOutline,
+  IoPawOutline
 } from 'react-icons/io5'
 
 const Home = () => (
@@ -233,6 +234,17 @@ const Home = () => (
               leftIcon={<Icon as={IoLogoApple} />}
             >
               KarwanAzar@icloud.com
+            </Button>
+          </Link>
+        </ListItem>
+        <ListItem>
+        <Link href="https://www.craftz.dog/" target="_blank">
+            <Button
+              variant="ghost"
+              colorScheme="teal"
+              leftIcon={<Icon as={IoPawOutline} />}
+            >
+              Website inspiration!
             </Button>
           </Link>
         </ListItem>
