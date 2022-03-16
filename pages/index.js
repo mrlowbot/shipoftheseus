@@ -255,7 +255,7 @@ const Home = () => (
               colorScheme="teal"
               leftIcon={<Icon as={IoHappyOutline} />}
             >
-              Visits:
+              Visits: &nbsp;
               <div id="visits"> ... </div>
             </Button>
           </Link>
