@@ -17,12 +17,17 @@ import {
   IoPawOutline,
   IoHappyOutline
 } from 'react-icons/io5'
-import countapi from 'countapi-js';
+import countapi from 'countapi-js'
 
-let L = [];
-countapi.visits().then((result) => {
-    L.push(result.value);
-});
+if (typeof window === 'object') {
+  // Check if document is finally loaded
+  document.addEventListener('DOMContentLoaded', function () {})
+}
+
+let L = []
+countapi.visits().then(result => {
+  L.push(result.value)
+})
 
 const Home = () => (
   <Container maxW="container.xl">
@@ -250,7 +255,8 @@ const Home = () => (
               colorScheme="teal"
               leftIcon={<Icon as={IoHappyOutline} />}
             >
-               Visits: {L.pop()}
+              Visits:
+              <div id="visits"> ... </div>
             </Button>
           </Link>
         </ListItem>
@@ -260,3 +266,15 @@ const Home = () => (
 )
 
 export default Home
+
+var XMLHttpRequest = require('xhr2')
+var xhr = new XMLHttpRequest()
+xhr.open(
+  'GET',
+  'https://api.countapi.xyz/hit/www.the-ship-of-theseus.com/visits'
+)
+xhr.responseType = 'json'
+xhr.onload = function () {
+  document.getElementById('visits').innerText = this.response.value
+}
+xhr.send()
