@@ -243,7 +243,7 @@ const Home = () => (
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/women.png"
+              src="/images/women1.png"
               alt="imagine for my art "
             />
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
