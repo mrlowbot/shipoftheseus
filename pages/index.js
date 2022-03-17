@@ -6,7 +6,8 @@ import {
   Button,
   List,
   ListItem,
-  Icon
+  Icon,
+  Image
 } from '@chakra-ui/react'
 import Paragraph from '../comps/paragraph'
 import Section from '../comps/section'
@@ -201,9 +202,64 @@ const Home = () => (
 
     <Section delay={0.3}>
       <Heading as="h3" variant="section-title">
-        On the web
+        My links/art works.
       </Heading>
       <List>
+        <ListItem>
+          <Box
+            flexShrink={0}
+            mt={{ base: 4, md: 0 }}
+            ml={{ md: 2 }}
+            textAlign="left"
+          >
+            <Image
+              borderColor="whiteAlpha.800"
+              borderWidth={0}
+              borderStyle="solid"
+              maxWidth="100px"
+              display="inline-block"
+              borderRadius="full"
+              src="/images/mee.png"
+              alt="imagine for my art "
+            />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;
+            <Image
+              borderColor="whiteAlpha.800"
+              borderWidth={0}
+              borderStyle="solid"
+              maxWidth="100px"
+              display="inline-block"
+              borderRadius="full"
+              src="/images/skull.png"
+              alt="imagine for my art "
+            />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;
+            <Image
+              borderColor="whiteAlpha.800"
+              borderWidth={0}
+              borderStyle="solid"
+              maxWidth="100px"
+              display="inline-block"
+              borderRadius="full"
+              src="/images/women.png"
+              alt="imagine for my art "
+            />
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp; &nbsp;
+            <Image
+              borderColor="whiteAlpha.800"
+              borderWidth={0}
+              borderStyle="solid"
+              maxWidth="100px"
+              display="inline-block"
+              borderRadius="full"
+              src="/images/lady.png"
+              alt="imagine for my art "
+            />
+          </Box>
+        </ListItem>
         <ListItem>
           <Link href="https://society6.com/mrlowbot" target="_blank">
             <Button
