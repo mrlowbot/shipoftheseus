@@ -11,6 +11,7 @@ _If we replace all the parts of the ship, is it still the same ~~[ship](https://
   * ##### [Framer motion](https://www.framer.com/motion/)
   * ##### [Three Js](https://threejs.org/)
   * ##### [Chakra UI](https://chakra-ui.com/)
+  * ##### [Count API](https://countapi.xyz/)
 
   ##### We can create a website that showcases a model in a nice way. 
 
