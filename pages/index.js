@@ -16,7 +16,8 @@ import {
   IoLogoGithub,
   IoBrushOutline,
   IoPawOutline,
-  IoHappyOutline
+  IoHappyOutline,
+  IoLogoLinkedin
 } from 'react-icons/io5'
 import countapi from 'countapi-js'
 
@@ -264,7 +265,7 @@ const Home = () => (
           <Link href="https://society6.com/mrlowbot" target="_blank">
             <Button
               variant="ghost"
-              colorScheme="teal"
+              colorScheme="orange"
               leftIcon={<Icon as={IoBrushOutline} />}
             >
               Art works!
@@ -278,7 +279,7 @@ const Home = () => (
               colorScheme="teal"
               leftIcon={<Icon as={IoLogoGithub} />}
             >
-              @mrlowbot
+              MrLowBot
             </Button>
           </Link>
         </ListItem>
@@ -286,10 +287,10 @@ const Home = () => (
           <Link href="https://twitter.com/MrLowBot_git" target="_blank">
             <Button
               variant="ghost"
-              colorScheme="teal"
+              colorScheme="twitter"
               leftIcon={<Icon as={IoLogoTwitter} />}
             >
-              @MrLowBot_git
+              MrLowBot_git
             </Button>
           </Link>
         </ListItem>
@@ -297,7 +298,7 @@ const Home = () => (
           <Link href="https://www.craftz.dog/" target="_blank">
             <Button
               variant="ghost"
-              colorScheme="teal"
+              colorScheme="gray"
               leftIcon={<Icon as={IoPawOutline} />}
             >
               Website inspiration!
@@ -305,10 +306,21 @@ const Home = () => (
           </Link>
         </ListItem>
         <ListItem>
+          <Link href="https://www.linkedin.com/in/karwan-x/" target="_blank">
+            <Button
+              variant="ghost"
+              colorScheme="linkedin"
+              leftIcon={<Icon as={IoLogoLinkedin} />}
+            >
+              LinkedIn
+            </Button>
+          </Link>
+        </ListItem>
+        <ListItem>
           <Link>
             <Button
               variant="ghost"
-              colorScheme="teal"
+              colorScheme="whatsapp"
               leftIcon={<Icon as={IoHappyOutline} />}
             >
               Visits: &nbsp;
