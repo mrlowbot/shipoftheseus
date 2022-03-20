@@ -16,8 +16,7 @@ import {
   IoLogoGithub,
   IoBrushOutline,
   IoPawOutline,
-  IoHappyOutline,
-  IoLogoLinkedin
+  IoHappyOutline
 } from 'react-icons/io5'
 import countapi from 'countapi-js'
 
