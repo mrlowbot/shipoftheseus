@@ -306,17 +306,6 @@ const Home = () => (
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="https://www.linkedin.com/in/karwan-x/" target="_blank">
-            <Button
-              variant="ghost"
-              colorScheme="linkedin"
-              leftIcon={<Icon as={IoLogoLinkedin} />}
-            >
-              LinkedIn
-            </Button>
-          </Link>
-        </ListItem>
-        <ListItem>
           <Link>
             <Button
               variant="ghost"
