@@ -12,11 +12,13 @@ export default function sendMessage(req, res) {
       from: '+14847398727',
       to: '+46705580337',
     })
+     /* eslint-disable */
     .then((message) =>
       res.json({
         success: true,
       })
     )
+    /* eslint-disable */
     .catch((error) => {
       console.log(error);
       res.json({
