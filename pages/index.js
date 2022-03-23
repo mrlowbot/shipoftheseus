@@ -27,7 +27,9 @@ if (typeof window === 'object') {
 }
 
 export default function Home() {
+  const [phone, setPhone] = useState('')
   const [message, setMessage] = useState('')
+  const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState(false)
 
@@ -347,7 +349,13 @@ export default function Home() {
         />
         <br></br>
         <br></br>
-        <Button type="submit">Send</Button>
+        <Button
+          disabled={loading}
+          type="submit"
+          onChange={e => setPhone(e.target.value)}
+        >
+          Send
+        </Button>
         <br></br>
         <br></br>
         {success && <p>Message sent successfully.</p>}
