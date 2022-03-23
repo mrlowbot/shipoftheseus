@@ -20,7 +20,6 @@ import {
   IoHappyOutline
 } from 'react-icons/io5'
 import { useState } from 'react'
-require('dotenv').config();
 
 if (typeof window === 'object') {
   // Check if document is finally loaded
