@@ -5,4 +5,5 @@ dist
 index info.txt
 node_modules
 boat.gltf
+.env.local
 link to me.txt
