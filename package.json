@@ -25,7 +25,6 @@
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "countapi-js": "^1.0.2",
-    "dotenv": "^16.0.0",
     "framer-motion": "^6.2.8",
     "jQuery": "^1.7.4",
     "next": "^12.1.0",
