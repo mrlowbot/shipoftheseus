@@ -27,9 +27,7 @@ if (typeof window === 'object') {
 }
 
 export default function Home() {
-  const [phone, setPhone] = useState('')
   const [message, setMessage] = useState('')
-  const [loading, setLoading] = useState(false)
   const [success, setSuccess] = useState(false)
   const [error, setError] = useState(false)
 
