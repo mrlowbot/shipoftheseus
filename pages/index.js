@@ -358,7 +358,7 @@ export default function Home() {
         </Button>
         <br></br>
         <br></br>
-        {success && <p>Message sent successfully.</p>}
+        {success && <p>Message sent successfully. Theseus thanks you.</p>}
         {error && <p>Something went wrong. Please check the number.</p>}
       </form>
     </Container>
