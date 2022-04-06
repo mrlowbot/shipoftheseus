@@ -16,7 +16,6 @@ import {
   IoLogoTwitter,
   IoLogoGithub,
   IoBrushOutline,
-  IoPawOutline,
   IoHappyOutline
 } from 'react-icons/io5'
 import { useState } from 'react'
