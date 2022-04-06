@@ -15,7 +15,6 @@ import Section from '../comps/section'
 import {
   IoLogoTwitter,
   IoLogoGithub,
-  IoBrushOutline,
   IoHappyOutline
 } from 'react-icons/io5'
 import { useState } from 'react'
@@ -279,17 +278,6 @@ export default function Home() {
                 alt="imagine for my art "
               />
             </Box>
-          </ListItem>
-          <ListItem>
-            <Link href="https://society6.com/mrlowbot" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="orange"
-                leftIcon={<Icon as={IoBrushOutline} />}
-              >
-                Art works!
-              </Button>
-            </Link>
           </ListItem>
           <ListItem>
             <Link href="https://github.com/mrlowbot" target="_blank">
