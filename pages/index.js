@@ -315,17 +315,6 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.craftz.dog/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="gray"
-                leftIcon={<Icon as={IoPawOutline} />}
-              >
-                Website inspiration!
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
             <Link>
               <Button
                 variant="ghost"
@@ -361,7 +350,6 @@ export default function Home() {
         {success && (
           <p>
             Message sent successfully. Theseus thanks you. <br></br>
-            ZG8geW91IGtub3cgYy03OD8gY29udGFjdCArNDYgNzMgMTcyIDc2IDE5
           </p>
         )}
         {error && <p>Something went wrong. Please check the number.</p>}
