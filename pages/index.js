@@ -8,15 +8,13 @@ import {
   ListItem,
   Icon,
   Image,
-  Textarea
+  Textarea,
+  Badge,
+  Checkbox
 } from '@chakra-ui/react'
 import Paragraph from '../comps/paragraph'
 import Section from '../comps/section'
-import {
-  IoLogoTwitter,
-  IoLogoGithub,
-  IoHappyOutline
-} from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoHappyOutline } from 'react-icons/io5'
 import { useState } from 'react'
 
 if (typeof window === 'object') {
@@ -231,16 +229,18 @@ export default function Home() {
               ml={{ md: 2 }}
               textAlign="left"
             >
-              <Image
-                borderColor="whiteAlpha.800"
-                borderWidth={0}
-                borderStyle="solid"
-                maxWidth="100px"
-                display="inline-block"
-                borderRadius="full"
-                src="/images/mee.png"
-                alt="imagine for my art "
-              />
+              <Link href="https://twitter.com/MrLowBot_git" target="_blank">
+                <Image
+                  borderColor="whiteAlpha.800"
+                  borderWidth={0}
+                  borderStyle="solid"
+                  maxWidth="100px"
+                  display="inline-block"
+                  borderRadius="full"
+                  src="/images/mee.png"
+                  alt="imagine for my art "
+                />
+              </Link>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp;
               <Image
@@ -255,16 +255,18 @@ export default function Home() {
               />
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp;
-              <Image
-                borderColor="whiteAlpha.800"
-                borderWidth={0}
-                borderStyle="solid"
-                maxWidth="100px"
-                display="inline-block"
-                borderRadius="full"
-                src="/images/women1.png"
-                alt="imagine for my art "
-              />
+              <Link href="https://twitter.com/SaraBottson" target="_blank">
+                <Image
+                  borderColor="whiteAlpha.800"
+                  borderWidth={0}
+                  borderStyle="solid"
+                  maxWidth="100px"
+                  display="inline-block"
+                  borderRadius="full"
+                  src="/images/women1.png"
+                  alt="imagine for my art "
+                />
+              </Link>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp;
               <Image
@@ -316,7 +318,28 @@ export default function Home() {
         </List>
       </Section>
       <Heading>Send a message to Theseus!</Heading>
+
+      <Paragraph>
+        This is a simple API that sends a message to any phone number you want.
+        <br></br>
+        &nbsp; &nbsp; Use it for fun on your own phone number to see the message
+        get sent!
+        <br></br>
+        &nbsp; &nbsp; NOTE: There is not need to add +46 before Swedish phone
+        numbers.
+        <br></br>
+        &nbsp; &nbsp; Do not use this for spoofing or anything bad.
+      </Paragraph>
+      <br></br>
+
       <form onSubmit={sendMessage}>
+        <Textarea
+          onChange={e => setPhone(e.target.value)}
+          id="phone"
+          required
+          placeholder="Your phone number!"
+        />
+        &nbsp;
         <Textarea
           onChange={e => setMessage(e.target.value)}
           id="message"
@@ -325,21 +348,31 @@ export default function Home() {
         />
         <br></br>
         <br></br>
-        <Button
-          disabled={loading}
-          type="submit"
-          onChange={e => setPhone(e.target.value)}
-        >
-          Send
-        </Button>
+        <Checkbox required colorScheme="green">
+          Click the checkbox before you click Send if you understand the rules
+          of using this API for Theseus:
+          <br></br>
+          <br></br>
+          <br></br>
+          <Button disabled={loading} type="submit">
+            Send
+          </Button>
+        </Checkbox>
         <br></br>
         <br></br>
         {success && (
           <p>
-            Message sent successfully. Theseus thanks you. <br></br>
+            <Badge colorScheme="green">Success</Badge> Message sent
+            successfully. Theseus thanks you. <br></br>
           </p>
         )}
-        {error && <p>Something went wrong. Please check the number.</p>}
+        {error && (
+          <p>
+            {' '}
+            <Badge colorScheme="red">Failure</Badge> Something went wrong.
+            Please check the number.
+          </p>
+        )}
       </form>
     </Container>
   )
