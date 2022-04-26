@@ -1,0 +1,8 @@
+# * 
+User-agent: *
+
+# Host
+Host: https://www.the-ship-of-theseus.com
+
+# Sitemaps
+Sitemap: https://www.the-ship-of-theseus.com/sitemap.xml
