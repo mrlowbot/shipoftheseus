@@ -14,18 +14,25 @@ const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Philosophy" />
         <meta
           name="google-site-verification"
           content="pTcWxvKyDZBf8Z-0d5MBb89eFm58lx-nv9pvYxZW2XE"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Philosophy" />
         <meta name="author" content="Karwan M.A." />
+        <meta name="author" content="The Ship Of Theseus" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta property="og:site_name" content="Ship of Theseus" />
+        <meta name="twitter:title" content="The Ship Of Theseus" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@mrlowbot_git" />
+        <meta name="twitter:creator" content="@mrlowbot_git" />
+        <meta name="twitter:image" content="https://www.the-ship-of-theseus.com/card.png" />
+        <meta property="og:site_name" content="The Ship Of Theseus" />
+        <meta name="og:title" content="The Ship Of Theseus" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/card.png" />
+        <meta property="og:image" content="https://www.the-ship-of-theseus.com/card.png" />
         <title>Ship of Theseus</title>
       </Head>
 
