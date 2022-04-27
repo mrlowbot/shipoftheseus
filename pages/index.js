@@ -255,7 +255,7 @@ export default function Home() {
               />
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp;
-              <Link href="https://twitter.com/SaraBottson" target="_blank">
+              <Link href="https://twitter.com/ZoeyMusk" target="_blank">
                 <Image
                   borderColor="whiteAlpha.800"
                   borderWidth={0}
