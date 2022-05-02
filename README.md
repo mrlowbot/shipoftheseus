@@ -25,7 +25,7 @@ _If we replace all the parts of the ship, is it still the same ~~[ship](https://
    ###### To run:
        > npm run dev
 
-  ###### I bought my model from [sketchfab](https://sketchfab.com/feed).
+  ###### I bought my model from [sketchfab](https://sketchfab.com/feed). 
 
 
-  ##### *Hopefully you guys like it*. :) 
+  ##### *Hopefully you guys like it*.  :)
