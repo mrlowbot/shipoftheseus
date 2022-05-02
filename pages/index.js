@@ -229,7 +229,7 @@ export default function Home() {
               ml={{ md: 2 }}
               textAlign="left"
             >
-              <Link href="https://twitter.com/MrLowBot_git" target="_blank">
+              <Link href="https://twitter.com/JokerOfTime" target="_blank">
                 <Image
                   borderColor="whiteAlpha.800"
                   borderWidth={0}
@@ -293,13 +293,13 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/MrLowBot_git" target="_blank">
+            <Link href="https://twitter.com/JokerOfTime" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="twitter"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                MrLowBot_git
+                JokerOfTime
               </Button>
             </Link>
           </ListItem>
