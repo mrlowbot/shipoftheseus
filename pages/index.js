@@ -320,15 +320,16 @@ export default function Home() {
       <Heading>Send a message to Theseus!</Heading>
 
       <Paragraph>
+        <br></br>
+        Rules:
+        <br></br>
         This is a simple API that sends a message to any phone number you want.
         <br></br>
-        &nbsp; &nbsp; Use it for fun on your own phone number to see the message
-        get sent!
+        Use it for fun on your own phone number to see the message get sent!
         <br></br>
-        &nbsp; &nbsp; NOTE: There is not need to add +46 before Swedish phone
-        numbers.
+        NOTE: There is not need to add +46 before Swedish phone numbers.
         <br></br>
-        &nbsp; &nbsp; Do not use this for spoofing or anything bad.
+        Do not use this for spoofing or anything bad.
       </Paragraph>
       <br></br>
 
