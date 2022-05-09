@@ -14,7 +14,7 @@ import {
 } from '@chakra-ui/react'
 import Paragraph from '../comps/paragraph'
 import Section from '../comps/section'
-import { IoLogoTwitter, IoLogoGithub, IoHappyOutline } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoHappyOutline, IoLogoMedium, IoBrushOutline } from 'react-icons/io5'
 import { useState } from 'react'
 
 if (typeof window === 'object') {
@@ -300,6 +300,28 @@ export default function Home() {
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
                 Joker Of Time
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://medium.com/@JokerOfTime" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="red"
+                leftIcon={<Icon as={IoLogoMedium} />}
+              >
+                Articles
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://society6.com/mrlowbot" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="blue"
+                leftIcon={<Icon as={IoBrushOutline} />}
+              >
+                My Art
               </Button>
             </Link>
           </ListItem>
