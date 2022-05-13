@@ -14,7 +14,13 @@ import {
 } from '@chakra-ui/react'
 import Paragraph from '../comps/paragraph'
 import Section from '../comps/section'
-import { IoLogoTwitter, IoLogoGithub, IoHappyOutline, IoLogoMedium, IoBrushOutline } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoGithub,
+  IoHappyOutline,
+  IoLogoMedium,
+  IoBrushOutline
+} from 'react-icons/io5'
 import { useState } from 'react'
 
 if (typeof window === 'object') {
@@ -215,12 +221,13 @@ export default function Home() {
         <br></br>
         <br></br>
         Hopefully you have found this idea and this website interesting.
-        <Paragraph></Paragraph>
       </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           My links/art works.
         </Heading>
+        These images are connected to 4 different Twitter accounts. The left one
+        with glasses is me. Click on them to see where they lead.
         <List>
           <ListItem>
             <Box
@@ -243,16 +250,18 @@ export default function Home() {
               </Link>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp;
-              <Image
-                borderColor="whiteAlpha.800"
-                borderWidth={0}
-                borderStyle="solid"
-                maxWidth="100px"
-                display="inline-block"
-                borderRadius="full"
-                src="/images/skull.png"
-                alt="imagine for my art "
-              />
+              <Link href="https://twitter.com/emilcarlssonart" target="_blank">
+                <Image
+                  borderColor="whiteAlpha.800"
+                  borderWidth={0}
+                  borderStyle="solid"
+                  maxWidth="100px"
+                  display="inline-block"
+                  borderRadius="full"
+                  src="/images/skull.png"
+                  alt="imagine for my art "
+                />
+              </Link>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp;
               <Link href="https://twitter.com/ZoeyMusk" target="_blank">
@@ -269,16 +278,18 @@ export default function Home() {
               </Link>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp;
-              <Image
-                borderColor="whiteAlpha.800"
-                borderWidth={0}
-                borderStyle="solid"
-                maxWidth="100px"
-                display="inline-block"
-                borderRadius="full"
-                src="/images/lady.png"
-                alt="imagine for my art "
-              />
+              <Link href="https://twitter.com/Inb4Lucifer" target="_blank">
+                <Image
+                  borderColor="whiteAlpha.800"
+                  borderWidth={0}
+                  borderStyle="solid"
+                  maxWidth="100px"
+                  display="inline-block"
+                  borderRadius="full"
+                  src="/images/lady.png"
+                  alt="imagine for my art "
+                />
+              </Link>
             </Box>
           </ListItem>
           <ListItem>
