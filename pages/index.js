@@ -278,18 +278,16 @@ export default function Home() {
               </Link>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               &nbsp; &nbsp;
-              <Link href="https://twitter.com/Inb4Lucifer" target="_blank">
-                <Image
-                  borderColor="whiteAlpha.800"
-                  borderWidth={0}
-                  borderStyle="solid"
-                  maxWidth="100px"
-                  display="inline-block"
-                  borderRadius="full"
-                  src="/images/lady.png"
-                  alt="imagine for my art "
-                />
-              </Link>
+              <Image
+                borderColor="whiteAlpha.800"
+                borderWidth={0}
+                borderStyle="solid"
+                maxWidth="100px"
+                display="inline-block"
+                borderRadius="full"
+                src="/images/lady.png"
+                alt="imagine for my art "
+              />
             </Box>
           </ListItem>
           <ListItem>
