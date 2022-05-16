@@ -340,7 +340,7 @@ export default function Home() {
               <Button
                 variant="ghost"
                 colorScheme="red"
-                leftIcon={<Icon as={IoBrushOutline} />}
+                leftIcon={<Icon as={IoHardwareChipSharp} />}
               >
                 JOTC - Solana Token
               </Button>
