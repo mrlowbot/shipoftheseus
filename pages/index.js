@@ -19,7 +19,8 @@ import {
   IoLogoGithub,
   IoHappyOutline,
   IoLogoMedium,
-  IoBrushOutline
+  IoBrushOutline,
+  IoHardwareChipSharp
 } from 'react-icons/io5'
 import { useState } from 'react'
 
@@ -331,6 +332,17 @@ export default function Home() {
                 leftIcon={<Icon as={IoBrushOutline} />}
               >
                 My Art
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://solscan.io/token/FtssCcc6aYaadQbuopCPJnpaku3YaVkP7kB1KNzF2nkR" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="red"
+                leftIcon={<Icon as={IoBrushOutline} />}
+              >
+                JOTC - Solana Token
               </Button>
             </Link>
           </ListItem>
