@@ -273,7 +273,7 @@ export default function Home() {
                   maxWidth="100px"
                   display="inline-block"
                   borderRadius="full"
-                  src="/images/women1.png"
+                  src="/images/lady.png"
                   alt="imagine for my art "
                 />
               </Link>
@@ -286,7 +286,7 @@ export default function Home() {
                 maxWidth="100px"
                 display="inline-block"
                 borderRadius="full"
-                src="/images/lady.png"
+                src="/images/bird.png"
                 alt="imagine for my art "
               />
             </Box>
