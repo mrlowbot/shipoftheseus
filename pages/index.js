@@ -325,7 +325,7 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://society6.com/mrlowbot" target="_blank">
+            <Link href="https://rarible.com/karwan/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"
