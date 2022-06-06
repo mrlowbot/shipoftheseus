@@ -303,7 +303,7 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/JokerOfTime" target="_blank">
+            <Link href="https://twitter.com/Karwaneth" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="twitter"
