@@ -309,7 +309,7 @@ export default function Home() {
                 colorScheme="twitter"
                 leftIcon={<Icon as={IoLogoTwitter} />}
               >
-                Joker Of Time
+                KarwanETH
               </Button>
             </Link>
           </ListItem>
