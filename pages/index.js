@@ -303,15 +303,13 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/Karwaneth" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="twitter"
-                leftIcon={<Icon as={IoLogoTwitter} />}
-              >
-                KarwanETH
-              </Button>
-            </Link>
+            <Button
+              variant="ghost"
+              colorScheme="twitter"
+              leftIcon={<Icon as={IoLogoTwitter} />}
+            >
+              KarwanETH
+            </Button>
           </ListItem>
           <ListItem>
             <Link href="https://medium.com/@JokerOfTime" target="_blank">
@@ -325,18 +323,19 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://rarible.com/karwan/" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                leftIcon={<Icon as={IoBrushOutline} />}
-              >
-                My Art
-              </Button>
-            </Link>
+            <Button
+              variant="ghost"
+              colorScheme="blue"
+              leftIcon={<Icon as={IoBrushOutline} />}
+            >
+              My Art
+            </Button>
           </ListItem>
           <ListItem>
-            <Link href="https://solscan.io/token/FtssCcc6aYaadQbuopCPJnpaku3YaVkP7kB1KNzF2nkR" target="_blank">
+            <Link
+              href="https://solscan.io/token/FtssCcc6aYaadQbuopCPJnpaku3YaVkP7kB1KNzF2nkR"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="red"
