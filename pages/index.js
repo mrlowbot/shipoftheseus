@@ -18,9 +18,7 @@ import {
   IoLogoTwitter,
   IoLogoGithub,
   IoHappyOutline,
-  IoLogoMedium,
-  IoBrushOutline,
-  IoHardwareChipSharp
+  IoCodeSlashSharp
 } from 'react-icons/io5'
 import { useState } from 'react'
 
@@ -237,7 +235,7 @@ export default function Home() {
               ml={{ md: 2 }}
               textAlign="left"
             >
-              <Link href="https://twitter.com/JokerOfTime" target="_blank">
+              <Link href="https://twitter.com/karwaneth" target="_blank">
                 <Image
                   borderColor="whiteAlpha.800"
                   borderWidth={0}
@@ -303,45 +301,30 @@ export default function Home() {
             </Link>
           </ListItem>
           <ListItem>
+          <Link
+              href="https://twitter.com/karwaneth"
+              target="_blank"
+            >
             <Button
               variant="ghost"
               colorScheme="twitter"
               leftIcon={<Icon as={IoLogoTwitter} />}
             >
-              KarwanETH
+              Karwaneth
             </Button>
-          </ListItem>
-          <ListItem>
-            <Link href="https://medium.com/@JokerOfTime" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="red"
-                leftIcon={<Icon as={IoLogoMedium} />}
-              >
-                Articles
-              </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Button
-              variant="ghost"
-              colorScheme="blue"
-              leftIcon={<Icon as={IoBrushOutline} />}
-            >
-              My Art
-            </Button>
-          </ListItem>
-          <ListItem>
             <Link
-              href="https://solscan.io/token/FtssCcc6aYaadQbuopCPJnpaku3YaVkP7kB1KNzF2nkR"
+              href="https://etherscan.io/address/0xa06865f3b8d0982cc74d037693861c20335b3957"
               target="_blank"
             >
               <Button
                 variant="ghost"
                 colorScheme="red"
-                leftIcon={<Icon as={IoHardwareChipSharp} />}
+                leftIcon={<Icon as={IoCodeSlashSharp} />}
               >
-                JOTC - Solana Token
+                Karwan.eth
               </Button>
             </Link>
           </ListItem>
